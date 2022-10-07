@@ -11,12 +11,13 @@ namespace IWantApp.EndPoints.Categories
 
         public static IResult Action(CategoryRequest categoryRequest, ApplicationDbContext context)
         {
-            var category = new Category
-            {
-                Name = categoryRequest.Name,
-                CreatedBy = "Teste",
-                CreatedOn = DateTime.Now
-            };
+            var category = new Category();
+
+            category.Name = categoryRequest.Name;
+            category.CreatedBy = "Test";
+            category.CreatedOn = DateTime.Now;
+            category.EditedBy = "Test";
+            category.EditedOn = DateTime.Now;
 
             context.Categories.Add(category);
             context.SaveChanges();

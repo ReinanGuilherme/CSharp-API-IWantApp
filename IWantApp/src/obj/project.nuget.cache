@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W1iwVBpiYGHK/eMmfGWTNUr3tGz765VSGw/fZaTNZiGIyEumXDP9ksp3M77CMg6pEFJQHAyITiL4a9eBa4kRJg==",
+  "dgSpecHash": "i+oDQ5qKUk9J6AgOyY5gue1l8BTGUB7WWO6Udsy7dlMprCfLQsvQdm3hoKs82vObp1Z5FukRfG58Upfx7rXtPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp\\IWantApp.csproj",
+  "projectFilePath": "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp\\src\\IWantApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\reinan.neto\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\reinan.neto\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

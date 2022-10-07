@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp\\IWantApp.csproj": {}
+    "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp\\src\\IWantApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp\\IWantApp.csproj": {
+    "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp\\src\\IWantApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp\\IWantApp.csproj",
+        "projectUniqueName": "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp\\src\\IWantApp.csproj",
         "projectName": "IWantApp",
-        "projectPath": "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp\\IWantApp.csproj",
+        "projectPath": "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp\\src\\IWantApp.csproj",
         "packagesPath": "C:\\Users\\reinan.neto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp\\obj\\",
+        "outputPath": "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\reinan.neto\\AppData\\Roaming\\NuGet\\NuGet.Config",
