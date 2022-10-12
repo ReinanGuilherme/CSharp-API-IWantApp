@@ -1,5 +1,7 @@
-﻿using IWantApp.Domain.Products;
+﻿using Flunt.Validations;
+using IWantApp.Domain.Products;
 using IWantApp.Infra.Data;
+using System.Xml.Linq;
 
 namespace IWantApp.EndPoints.Categories
 {
@@ -11,13 +13,13 @@ namespace IWantApp.EndPoints.Categories
 
         public static IResult Action(CategoryRequest categoryRequest, ApplicationDbContext context)
         {
-            var category = new Category();
 
-            category.Name = categoryRequest.Name;
-            category.CreatedBy = "Test";
-            category.CreatedOn = DateTime.Now;
-            category.EditedBy = "Test";
-            category.EditedOn = DateTime.Now;
+            var category = new Category(categoryRequest.Name, "Test", "Test");
+
+            if (!category.IsValid)
+            {
+                return Results.ValidationProblem(category.Notifications.ConvertToProblemDetails());
+            }
 
             context.Categories.Add(category);
             context.SaveChanges();

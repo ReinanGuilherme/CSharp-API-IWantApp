@@ -181,3 +181,4 @@ C:\Users\ReinanGuilherme\Desktop\Programação\Cursos\Udemy\3 - .NET 6 WEB API -
 C:\Users\ReinanGuilherme\Desktop\Programação\Cursos\Udemy\3 - .NET 6 WEB API - Do zero ao avançado\IWantApp-API\IWantApp\src\obj\Debug\net6.0\IWantApp.pdb
 C:\Users\ReinanGuilherme\Desktop\Programação\Cursos\Udemy\3 - .NET 6 WEB API - Do zero ao avançado\IWantApp-API\IWantApp\src\obj\Debug\net6.0\IWantApp.genruntimeconfig.cache
 C:\Users\ReinanGuilherme\Desktop\Programação\Cursos\Udemy\3 - .NET 6 WEB API - Do zero ao avançado\IWantApp-API\IWantApp\src\obj\Debug\net6.0\ref\IWantApp.dll
+C:\Users\ReinanGuilherme\Desktop\Programação\Cursos\Udemy\3 - .NET 6 WEB API - Do zero ao avançado\IWantApp-API\IWantApp\src\bin\Debug\net6.0\Flunt.dll

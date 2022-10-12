@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "X3TCLX31Z8tIU2EHZgja321gpKjAw34l2KIwBGK9lGfCFUhs6mX9shCL6MnmJRTfuL3KbpttDadvPJ/kgFXbRA==",
+  "dgSpecHash": "7F4nC/5SUN1ZUXidoMy7LI6lYkeLi68GJA5lUBzBaM/kECT7X0Qai96q8oV7mlWhMqrdWH4Qy6E+Ic5IPt6njA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ReinanGuilherme\\Desktop\\Programação\\Cursos\\Udemy\\3 - .NET 6 WEB API - Do zero ao avançado\\IWantApp-API\\IWantApp\\src\\IWantApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ReinanGuilherme\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\ReinanGuilherme\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ReinanGuilherme\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ReinanGuilherme\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
