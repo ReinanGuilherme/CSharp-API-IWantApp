@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ReinanGuilherme\\Desktop\\Programação\\Cursos\\Udemy\\3 - .NET 6 WEB API - Do zero ao avançado\\IWantApp-API\\IWantApp\\src\\IWantApp.csproj": {}
+    "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp-API\\IWantApp\\src\\IWantApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ReinanGuilherme\\Desktop\\Programação\\Cursos\\Udemy\\3 - .NET 6 WEB API - Do zero ao avançado\\IWantApp-API\\IWantApp\\src\\IWantApp.csproj": {
+    "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp-API\\IWantApp\\src\\IWantApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ReinanGuilherme\\Desktop\\Programação\\Cursos\\Udemy\\3 - .NET 6 WEB API - Do zero ao avançado\\IWantApp-API\\IWantApp\\src\\IWantApp.csproj",
+        "projectUniqueName": "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp-API\\IWantApp\\src\\IWantApp.csproj",
         "projectName": "IWantApp",
-        "projectPath": "C:\\Users\\ReinanGuilherme\\Desktop\\Programação\\Cursos\\Udemy\\3 - .NET 6 WEB API - Do zero ao avançado\\IWantApp-API\\IWantApp\\src\\IWantApp.csproj",
-        "packagesPath": "C:\\Users\\ReinanGuilherme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ReinanGuilherme\\Desktop\\Programação\\Cursos\\Udemy\\3 - .NET 6 WEB API - Do zero ao avançado\\IWantApp-API\\IWantApp\\src\\obj\\",
+        "projectPath": "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp-API\\IWantApp\\src\\IWantApp.csproj",
+        "packagesPath": "C:\\Users\\reinan.neto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp-API\\IWantApp\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ReinanGuilherme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\reinan.neto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,10 @@
             "Flunt": {
               "target": "Package",
               "version": "[2.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
