@@ -16,6 +16,9 @@ namespace IWantApp.Infra.Data
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+
+            base.OnModelCreating(builder);
+
             builder.Ignore<Notification>();
 
             builder.Entity<Product>().Property(p => p.Name).IsRequired();

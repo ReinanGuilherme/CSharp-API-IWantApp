@@ -9,6 +9,11 @@ namespace IWantApp.Domain.Products
         public string Name { get; set; }
         public bool Active { get; set; }
 
+        public Category()
+        {
+
+        }
+
         public Category(string name, string createBy, string editedBy)
         {
             Name = name;
