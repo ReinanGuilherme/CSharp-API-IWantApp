@@ -1,10 +1,20 @@
 using IWantApp.EndPoints.Categories;
+using IWantApp.EndPoints.Employees;
 using IWantApp.Infra.Data;
 using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSqlServer<ApplicationDbContext>(builder.Configuration["ConnectionStrings:IWantDb"]);
-builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(
+    //removendo algumas regras de validação de senha
+    options =>
+    {
+        options.Password.RequireNonAlphanumeric = false;
+        options.Password.RequireDigit = false;
+        options.Password.RequireUppercase = false;
+        options.Password.RequiredLength = 3;
+        options.Password.RequireLowercase = false;
+    })
     //add o context do banco de dados.
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
@@ -27,5 +37,6 @@ app.UseHttpsRedirection();
 app.MapMethods(CategoryPost.Template, CategoryPost.Methoods, CategoryPost.Handle);
 app.MapMethods(CategoryGetAll.Template, CategoryGetAll.Methoods, CategoryGetAll.Handle);
 app.MapMethods(CategoryPut.Template, CategoryPut.Methoods, CategoryPut.Handle);
+app.MapMethods(EmployeePost.Template, EmployeePost.Methoods, EmployeePost.Handle);
 
 app.Run();
