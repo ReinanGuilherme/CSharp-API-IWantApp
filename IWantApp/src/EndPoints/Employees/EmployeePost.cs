@@ -1,6 +1,7 @@
 ﻿using IWantApp.Domain.Products;
 using IWantApp.Infra.Data;
 using Microsoft.AspNetCore.Identity;
+using System.Security.Claims;
 
 namespace IWantApp.EndPoints.Employees
 {
@@ -19,6 +20,20 @@ namespace IWantApp.EndPoints.Employees
 
             //verificando se o usuario foi salvo com sucesso.
             if (!result.Succeeded)
+            {
+                return Results.BadRequest(result.Errors.First());
+            }
+
+            var userClaims = new List<Claim>
+            {
+                new Claim("EmployeeCode", employeeRequest.EmployeeCode),
+                new Claim("Name", employeeRequest.Name)
+            };
+
+            //criando um novo Claim
+            var claimResult = userManager.AddClaimsAsync(user, userClaims).Result;
+
+            if (!claimResult.Succeeded)
             {
                 return Results.BadRequest(result.Errors.First());
             }

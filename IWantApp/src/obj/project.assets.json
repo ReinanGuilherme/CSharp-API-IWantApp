@@ -2424,19 +2424,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\reinan.neto\\.nuget\\packages\\": {}
+    "C:\\Users\\Reinan.Neto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp-API\\IWantApp\\src\\IWantApp.csproj",
+      "projectUniqueName": "C:\\Users\\Reinan.Neto\\Desktop\\OUTROS\\REINAN\\IWantApp-API\\IWantApp\\src\\IWantApp.csproj",
       "projectName": "IWantApp",
-      "projectPath": "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp-API\\IWantApp\\src\\IWantApp.csproj",
-      "packagesPath": "C:\\Users\\reinan.neto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\reinan.neto\\Desktop\\Util\\Treino\\IWantApp-API\\IWantApp\\src\\obj\\",
+      "projectPath": "C:\\Users\\Reinan.Neto\\Desktop\\OUTROS\\REINAN\\IWantApp-API\\IWantApp\\src\\IWantApp.csproj",
+      "packagesPath": "C:\\Users\\Reinan.Neto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Reinan.Neto\\Desktop\\OUTROS\\REINAN\\IWantApp-API\\IWantApp\\src\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\reinan.neto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Reinan.Neto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2514,7 +2514,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
