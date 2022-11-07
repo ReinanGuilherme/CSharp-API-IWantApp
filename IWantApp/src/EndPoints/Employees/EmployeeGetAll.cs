@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using IWantApp.Infra.Data.Querys;
 using Microsoft.Data.SqlClient;
 
 namespace IWantApp.EndPoints.Employees
@@ -9,15 +10,10 @@ namespace IWantApp.EndPoints.Employees
         public static string[] Methoods => new string[] { HttpMethod.Get.ToString() };
         public static Delegate Handle => Action;
 
-        public static IResult Action(int page, int rows, IConfiguration configuration)
-        {
-            var db = new SqlConnection(configuration["ConnectionStrings:IWantDb"]);
+        public static IResult Action(int? page, int? rows, QueryAllUsersWithClaimName query)
+        {           
 
-            string script = @"select Email, ClaimValue
-                                from AspNetUsers u 
-                                inner join AspNetUserClaims c on u.id = c.UserId and claimtype = 'Name'";
-
-            var employees = db.Query<EmployeeRequest>(script);
+            return Results.Ok(query.Execute(page.Value, rows.Value));
         }
     }
 }

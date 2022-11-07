@@ -1,6 +1,7 @@
 using IWantApp.EndPoints.Categories;
 using IWantApp.EndPoints.Employees;
 using IWantApp.Infra.Data;
+using IWantApp.Infra.Data.Querys;
 using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +18,9 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(
     })
     //add o context do banco de dados.
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+//add funcao como serviço
+builder.Services.AddScoped<QueryAllUsersWithClaimName>();
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
