@@ -316,3 +316,5 @@ C:\Users\Reinan.Neto\Desktop\OUTROS\REINAN\IWantApp-API\IWantApp\src\obj\Debug\n
 C:\Users\Reinan.Neto\Desktop\OUTROS\REINAN\IWantApp-API\IWantApp\src\obj\Debug\net6.0\IWantApp.pdb
 C:\Users\Reinan.Neto\Desktop\OUTROS\REINAN\IWantApp-API\IWantApp\src\obj\Debug\net6.0\IWantApp.genruntimeconfig.cache
 C:\Users\Reinan.Neto\Desktop\OUTROS\REINAN\IWantApp-API\IWantApp\src\obj\Debug\net6.0\ref\IWantApp.dll
+C:\Users\Reinan.Neto\Desktop\OUTROS\REINAN\IWantApp-API\IWantApp\src\bin\Debug\net6.0\Dapper.dll
+C:\Users\Reinan.Neto\Desktop\OUTROS\REINAN\IWantApp-API\IWantApp\src\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
