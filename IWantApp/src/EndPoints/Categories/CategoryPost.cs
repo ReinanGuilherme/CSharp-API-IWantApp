@@ -1,6 +1,7 @@
 ﻿using Flunt.Validations;
 using IWantApp.Domain.Products;
 using IWantApp.Infra.Data;
+using Microsoft.AspNetCore.Authorization;
 using System.Xml.Linq;
 
 namespace IWantApp.EndPoints.Categories
@@ -11,6 +12,7 @@ namespace IWantApp.EndPoints.Categories
         public static string[] Methoods => new string[] { HttpMethod.Post.ToString() };
         public static Delegate Handle => Action;
 
+        [Authorize]
         public static IResult Action(CategoryRequest categoryRequest, ApplicationDbContext context)
         {
 
